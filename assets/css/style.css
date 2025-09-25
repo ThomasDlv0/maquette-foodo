@@ -213,3 +213,35 @@ footer h2 {
     margin-bottom: 10px;
 }
 
+
+@media (max-width: 800px) {
+    header .navbar {
+        padding: 0 50px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    main .section-gallery-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .gallery-content, main .gallery-content-millieu {
+        width: 100%;
+    }
+
+    main .section-menu .menu-content {
+        justify-content: center;
+        width: 100%;
+    }
+
+    main .menu-content-text {
+        margin-bottom: 100px;
+    }
+
+    main .section-menu .menu-content .menu-content-text:last-child {
+        margin-right: 0;
+    }
+}
